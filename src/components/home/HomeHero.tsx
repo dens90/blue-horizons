@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { publicPath } from "@/lib/publicPath";
 
 export function HomeHero() {
   const [videoReady, setVideoReady] = useState(true);
@@ -26,7 +27,7 @@ export function HomeHero() {
           playsInline
           onError={() => setVideoReady(false)}
         >
-          <source src="/video-placeholder.mp4" type="video/mp4" />
+          <source src={publicPath("/video-placeholder.mp4")} type="video/mp4" />
         </video>
       ) : null}
 
