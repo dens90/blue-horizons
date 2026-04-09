@@ -25,7 +25,7 @@ export function ContactSocialSection() {
           <p className="max-w-md text-lg leading-relaxed text-sky-900/80">
             {/* TODO: email, telefono, sede */}
             Siamo attivi in stagione lungo la costa marchigiana. Seguici per
-            aggiornamenti su date speciali e nuovi percorsi.
+            aggiornamenti sulle prossime date e sui nuovi percorsi.
           </p>
 
           <nav aria-label="Social">
