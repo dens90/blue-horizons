@@ -29,7 +29,7 @@ export function FeaturedEventsSection() {
   return (
     <section
       id="tour"
-      className="w-full border-b border-amber-200/60 bg-[radial-gradient(circle_at_top,_#C2410C_0%,_#A16207_20%,_#854D0E_50%,_#78350F_100%)] py-24 md:py-32 lg:py-44"
+      className="w-full border-b border-amber-200/60 bg-[radial-gradient(circle_at_top,_#FDBA74_0%,_#F97316_30%,_#EA580C_70%,_#C2410C_100%)] py-24 md:py-32 lg:py-44"
       aria-labelledby="eventi-heading"
     >
       <div className="mx-auto w-full max-w-none px-4 sm:px-6 md:px-8  ">
@@ -59,20 +59,20 @@ export function FeaturedEventsSection() {
                 </div>
               </div>
 
-              <h3 className="mt-8 max-w-xl text-balance text-xl font-medium leading-snug text-white/50 sm:text-2xl md:text-2xl lg:text-3xl">
+              <h3 className="mt-8 max-w-xl text-balance text-xl font-medium leading-snug text-white/80 sm:text-2xl md:text-2xl lg:text-3xl">
                 {event.title}
               </h3>
-              <p className="mt-4 max-w-xl text-pretty text-base leading-relaxed text-black/50 md:text-lg font-semibold">
+              <p className="mt-4 max-w-xl text-pretty text-base leading-relaxed text-black/80 md:text-lg font-semibold">
                 {event.description}
               </p>
-              <p className="mt-3 text-xs font-medium uppercase tracking-wide text-white/50 md:text-sm">
+              <p className="mt-3 text-xs font-medium uppercase tracking-wide text-white/80 md:text-sm">
                 {event.date} · {event.time}
               </p>
 
               <div className="mt-10">
                 <Link
                   href={`/eventi/${event.slug}`}
-                  className="inline-flex items-center gap-2.5 rounded-full bg-white px-8 py-3 text-base font-semibold text-neutral-900 shadow-md transition hover:bg-neutral-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900"
+                  className="inline-flex items-center gap-2.5 rounded-md bg-black/80 px-7 py-3 text-base font-semibold text-white shadow-md transition hover:bg-white/40 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900"
                 >
                   Vedi evento
                   <ArrowRightIcon className="size-4 shrink-0" />

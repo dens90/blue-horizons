@@ -11,9 +11,11 @@ const Button: React.FC<ButtonProps> = ({ buttonText, buttonLink, className }) =>
   
 
   return (
+
+    
     <Link
       href={buttonLink}
-      className={`inline-flex items-center justify-center rounded-full bg-[var(--color-wb-accent)] px-8 py-3.5 text-base font-semibold text-sky-950 shadow-sm transition hover:bg-[var(--color-wb-accent-strong)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200 ${className ?? ""}`}
+      className={`inline-flex items-center justify-center rounded-md bg-[#f8c703] opacity-100 hover:opacity-60 px-8 py-3 text-base font-semibold text-sky-950 shadow-sm transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200 ${className ?? ""}`}
     >
       {buttonText}
     </Link>

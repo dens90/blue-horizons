@@ -1,9 +1,9 @@
 import { ContactSocialSection } from "@/components/home/ContactSocialSection";
 import { FeaturedEventsSection } from "@/components/home/FeaturedEventsSection";
-import { GalleryPreviewSection } from "@/components/home/GalleryPreviewSection";
 import { HomeHero } from "@/components/home/HomeHero";
 import { HowItWorksSection } from "@/components/home/HowItWorksSection";
 import Mosaico from "@/components/home/Mosaico";
+import { WhyChooseWaterbikeSection } from "@/components/home/WhyChooseWaterbikeSection";
 
 export default function Home() {
   return (
@@ -12,7 +12,8 @@ export default function Home() {
       <HowItWorksSection />
       <Mosaico />
       <FeaturedEventsSection />
-      <GalleryPreviewSection />
+      <WhyChooseWaterbikeSection />
+     {/*  <GalleryPreviewSection /> */}
       <ContactSocialSection />
     </>
   );

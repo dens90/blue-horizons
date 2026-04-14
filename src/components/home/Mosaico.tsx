@@ -65,7 +65,7 @@ const Mosaico = () => {
                   <div className="pt-2">
                     <Link
                       href={item.href}
-                      className="inline-flex items-center justify-center rounded-full border border-neutral-900 px-6 py-2 text-xs font-semibold uppercase tracking-wide text-neutral-900 transition-colors hover:bg-neutral-900 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900"
+                      className="inline-flex items-center justify-center rounded-md border border-neutral-900 px-5 py-1.5 text-xs font-semibold uppercase tracking-wide text-black transition-colors hover:bg-neutral-900 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900"
                     >
                       {item.cta}
                     </Link>

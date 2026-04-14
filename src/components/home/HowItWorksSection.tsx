@@ -88,7 +88,7 @@ export function HowItWorksSection() {
 
       <div className="relative mx-auto max-w-6xl px-6 sm:px-8 lg:px-10">
         <div className="mb-4 flex justify-center md:mb-6">
-          <span className="inline-flex items-center rounded-full border border-sky-200/80 bg-white/90 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-sky-800 shadow-sm shadow-sky-900/5">
+          <span className="inline-flex items-center rounded-md border border-sky-200/80 bg-white/90 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-sky-800 shadow-sm shadow-sky-900/5">
             L&apos;ESPERIENZA INIZIA QUI
           </span>
         </div>
@@ -154,7 +154,7 @@ export function HowItWorksSection() {
           */}
           <a
             href={publicPath("#lineup-waterbike")}
-            className="mt-8 inline-flex items-center justify-center rounded-full bg-sky-600 px-8 py-3 text-sm font-semibold text-white shadow-md shadow-sky-900/15 transition hover:bg-sky-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500"
+            className="mt-8 inline-flex items-center justify-center rounded-md bg-sky-600 hover:opacity-60 px-8 py-3 text-sm font-semibold text-white shadow-md shadow-sky-900/15 transition hover:bg-sky-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500"
           >
             Vedi le waterbike prenotabili
           </a>
