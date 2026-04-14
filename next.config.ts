@@ -6,7 +6,9 @@ import type { NextConfig } from "next";
  *
  * Hosting sulla root (Vercel, Netlify, dominio senza sottocartella): NON impostare BASE_PATH.
  */
-const raw = process.env.BASE_PATH?.trim() ?? "";
+/** Accetta anche `NEXT_PUBLIC_BASE_PATH` (es. CI) per evitare build senza prefisso. */
+const raw =
+  (process.env.BASE_PATH ?? process.env.NEXT_PUBLIC_BASE_PATH ?? "").trim();
 const basePath = raw.replace(/\/$/, "");
 
 const nextConfig: NextConfig = {

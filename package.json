@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:github-pages": "BASE_PATH=/blue-horizons next build",
+    "build:github-pages": "BASE_PATH=/blue-horizons NEXT_PUBLIC_BASE_PATH=/blue-horizons next build",
     "export": "next build",
     "start": "next start",
     "lint": "eslint"
