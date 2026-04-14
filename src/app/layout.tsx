@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="it" className={`${geistSans.variable} h-full antialiased`}>
+    <html lang="it" data-scroll-behavior="smooth" className={`${geistSans.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col font-sans">
         <Navbar />
         <main className="flex w-full flex-1 flex-col">{children}</main>

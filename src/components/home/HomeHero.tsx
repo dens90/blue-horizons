@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
 import { publicPath } from "@/lib/publicPath";
+import Button from "../UI/Button";
 
 export function HomeHero() {
   const [videoReady, setVideoReady] = useState(true);
@@ -43,18 +43,13 @@ export function HomeHero() {
         <h1 className="text-balance text-4xl font-semibold leading-tight tracking-tight text-white md:text-5xl lg:text-6xl">
           Tour in waterbike nelle Marche
         </h1>
-        <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-white/90 md:text-xl">
+        <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-white/90 md:text-2xl">
           {/* TODO: sottotitolo definitivo dal cliente */}
           Pedala sull&apos;acqua tra cielo e costa: esperienze guidate, facili e
           adatte a tutti.
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-          <Link
-            href="/prenota-acquabike#prenota-acquabike"
-            className="inline-flex items-center justify-center rounded-full bg-[var(--color-wb-accent)] px-8 py-3.5 text-base font-semibold text-sky-950 shadow-sm transition hover:bg-[var(--color-wb-accent-strong)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
-          >
-            Noleggia Waterbike
-          </Link>
+         <Button buttonText="Noleggia Waterbike" buttonLink="/prenota-acquabike#prenota-acquabike" />     
         </div>
       </div>
     </section>

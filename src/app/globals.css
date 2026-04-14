@@ -23,3 +23,10 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans), system-ui, sans-serif;
 }
+
+/* Anchor / hash: scroll morbido (la durata è del browser; non esiste duration in CSS). */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
