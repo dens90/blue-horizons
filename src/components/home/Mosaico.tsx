@@ -7,7 +7,7 @@ const Mosaico = () => {
   return (
     <section
       id="lineup-waterbike"
-      className="scroll-mt-20 bg-gradient-to-t from-sky-100/95 via-white to-sky-50/40 py-16 sm:scroll-mt-24 md:py-24"
+      className="scroll-mt-20 bg-gradient-to-t from-sky-100/95 via-white to-sky-50/40 pb-20 sm:scroll-mt-24 md:py-24"
       aria-labelledby="mosaico-heading"
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">

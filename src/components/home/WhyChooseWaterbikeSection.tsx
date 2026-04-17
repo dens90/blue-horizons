@@ -40,7 +40,7 @@ const pillars: Pillar[] = [
 export function WhyChooseWaterbikeSection() {
   return (
     <section
-      className="border-b border-sky-100/80 bg-white py-20 md:py-28 lg:py-32"
+      className=" bg-gradient-to-b from-sky-100/95 via-white to-sky-50/40 py-20 md:py-28 lg:py-32"
       aria-labelledby="why-waterbike-heading"
     >
       <div className="mx-auto max-w-6xl px-6 sm:px-8 lg:px-10">
