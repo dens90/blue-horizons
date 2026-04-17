@@ -29,23 +29,22 @@ export function ContactSocialSection() {
             Siamo attivi in stagione lungo la costa marchigiana. Seguici per
             aggiornamenti sulle prossime date e sui nuovi percorsi.
           </p>
-
           <nav aria-label="Social">
             <ul className="flex flex-wrap gap-4">
             
               <li>
                 <a href="">
-                <Image src="/facebook-logo.svg" alt="Facebook logo" width={38} height={38} />
+                <Image src={`${publicPath("/facebook-logo.svg")}`} alt="Facebook logo" width={38} height={38} />
                 </a>
               </li>
               <li>
                 <a href="">
-                <Image src="/instagram-logo.svg" alt="Instagram logo" width={38} height={38} />
+                <Image src={`${publicPath("/instagram-logo.svg")}`} alt="Instagram logo" width={38} height={38} />
                 </a>
               </li>
               <li>
                 <a href="">
-                <Image src="/tiktok-logo.svg" alt="TikTok logo" width={118} height={38} />
+                <Image src={`${publicPath("/tiktok-logo.svg")}`} alt="TikTok logo" width={118} height={38} />
                 </a>
               </li>
             </ul>
